@@ -1,3 +1,10 @@
+/* Scroll fluide pour navigation interne */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -195,3 +202,61 @@ footer {
 .social-btn.instagram { background: #C13584; }
 .social-btn.linkedin { background: #0A66C2; }
 
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth; /* scroll fluide */
+}
+
+/* Sections pleines pour effet “page” */
+section {
+    min-height: 100vh;
+    padding: 80px 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#beninboost {
+    background-color: #f0f4f8;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+#beninboost h2 {
+    color: #1f2933;
+}
+
+#beninboost h3 {
+    margin-top: 20px;
+    color: #0f172a;
+}
+
+#beninboost ul {
+    list-style-type: disc;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+#beninboost ul li {
+    margin-bottom: 10px;
+}
+
+/* Photo animée */
+.photo-animée {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+
+.photo-animée:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
